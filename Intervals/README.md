@@ -12,13 +12,13 @@ and checks if $I \subseteq ⋃_j 𝐴_𝑗$. (i.e. if every element of $I$ is in
 
 ## File Structure
 ```
-├── Makefile            # compiling this project
-├── README.md           # this README file
-├── intervals.cxx       # implementation of the Interval class and the required IsIntervalInUnionOfOthers function 
+├── Makefile                   # compiling this project
+├── README.md                  # this README file
+├── intervals.cxx              # implementation of the Interval class and the required IsIntervalInUnionOfOthers function 
 ├── main_intervals             # executable of the program (runs all tests fort this question)
 ├── main_intervals.cxx         # file containing main() to run all unit tests
-├── test.h              # header file for test framework
-└── tests.cxx           # unit tests for intervals.cxx (extra te)
+├── test.h                     # header file for test framework
+└── tests.cxx                  # unit tests for intervals.cxx (extra te)
 ```
 Note that additional unit tests have been added to check the implementation of the ` GetUnionisedIntervals` function in `intervals.cxx`.
 
