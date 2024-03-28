@@ -21,7 +21,7 @@
 │   └── tests.cxx
 └── README.md               # this README file
 ```
-The respective `README.md` files contain more details on specific build instructions, implementations and reasonings.
+The respective `README.md` files contain more details on the tasks, specific build instructions, implementations, and explanations.
 
 ## Requirements
 - **C++ Compiler**: The project requires a C++ compiler. The Makefile is configured to use `g++` as the default compiler.
@@ -49,4 +49,4 @@ To run all tests for **Intervals**
 ./Intervals/main_intervals
 ```
 
-All unit tests passed successfully with reasonable time: (Integer Collection: ~1s; Intervals: ~8s). See `tests.cxx` for unit tests.
+All unit tests passed successfully within a reasonable time: (Integer Collection: ~1s; Intervals: ~8s). See `tests.cxx` for unit tests in respective directories.
