@@ -2,6 +2,25 @@
 
  An interesting project task on data structures & algorithms, object-oriented programming, unit testing and documentation writing.
 
+## Problem overview
+#### Integer collection
+Add appropriate data members to the IntegerCollection class and implement the missing methods in the included code that stores a collection of integers. On construction, the collection should be empty. The same number may be stored more than once.
+
+Implement the following methods:
+
+1. Insert(int x). Insert an entry for the value “x”.
+2. Erase(int x). Remove one entry with the value “x” (if one exists) from the collection.
+3. Erase(int from, int to). Remove all the entries with a value in the range [from, to).
+4. Count(int from, int to). Count how many entries have a value in the range [from, to).
+
+#### Intervals
+Implement a function that takes as input 
+
+•	A closed integer interval $I$, 
+•	a collection of intervals $A_1... A_n$ 
+
+and checks if $I \subseteq ⋃_j 𝐴_𝑗$. (i.e. if every element of $I$ is in the union of the $A_i$)
+
 ## Overall File Structure
 
 ```
